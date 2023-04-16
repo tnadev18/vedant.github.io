@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Information form</title>
+    </head>
+    <body>
+        <h1>
+            Information form
+        </h1>
+        <Form method="get">
+            First name : <input type="text" name="Firstname"><br>
+            Last name :  <input type="text" name="lastname"><br>
+            Email :      <input type="Email" name="email" required><br>
+            password :   <input type="password" name="Password" minlength="8"><br>
+            Gender :<br>
+            Male <input type="radio" value ="male" name = "gender">
+            Female <input type="radio" value = "Female" name = "gender"><br>
+            Date of birth : <input type="date" name="DOB"><br>
+            Pets :<br>
+            Cat <input type="checkbox" name="Cat">
+            Dog <input type = "checkbox" name="Dog"><br>
+            Car :<br>
+            <select name = Cars>
+                <option value="Mercedise">Mercedise</option>
+                <option value="Audi">Audi</option>
+                <option value="Tata">Tata</option>
+            </select><br><br>
+            <input type="submit" value="Save">
+            <input type="reset" value="Refresh">
+        </Form>
+    </body>
+</html>
+<!-- 
+Firstname=ved
+&lastname=ant
+&email=vedant%40gmail.com
+&Password=12345678
+&gender=male
+&DOB=2023-04-04
+&Cat=on
+&Cars=Tata -->
